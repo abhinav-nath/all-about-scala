@@ -8,4 +8,9 @@ object ValuesVariablesTypes extends App {
 
   // x = 2    not allowed! vals are immutable
 
+  val y = 21 // compiler can infer types
+  println(y.getClass)
+
+  val str: String = "hello"; // semi-colons are allowed but optional
+
 }
